@@ -19,36 +19,36 @@
         </Button>
         
         <xcad:DockingManager AllowMixedOrientation="True" Name="MyDockingManager" Grid.Row="1">
-                    <xcad:LayoutRoot>
-                        <xcad:LayoutRoot.LeftSide>
-                            <xcad:LayoutAnchorSide>
-                                <xcad:LayoutAnchorGroup>
-                                    <xcad:LayoutAnchorable CanClose="False" Title="Group List" x:Name="MyGroupListAnchorable"
-                                                ContentId="MyGroupListAnchorable">
-                                <Rectangle Fill="Green" Width="100" Height="100"/>
-                            </xcad:LayoutAnchorable>
-                                </xcad:LayoutAnchorGroup>
-                            </xcad:LayoutAnchorSide>
-                        </xcad:LayoutRoot.LeftSide>
+            <xcad:LayoutRoot>
+                <xcad:LayoutRoot.LeftSide>
+                    <xcad:LayoutAnchorSide>
+                        <xcad:LayoutAnchorGroup>
+                            <xcad:LayoutAnchorable CanClose="False" Title="Group List" x:Name="MyGroupListAnchorable"
+                                        ContentId="MyGroupListAnchorable">
+                        <Rectangle Fill="Blue" Width="100" Height="100"/>
+                    </xcad:LayoutAnchorable>
+                        </xcad:LayoutAnchorGroup>
+                    </xcad:LayoutAnchorSide>
+                </xcad:LayoutRoot.LeftSide>
 
-                        <xcad:LayoutPanel>
-                            <xcad:LayoutAnchorablePaneGroup>
-                                <xcad:LayoutAnchorablePane>
-                                    <xcad:LayoutAnchorable CanClose="False" Title="Flow View" x:Name="MyFlowViewAnchorable"
-                                                ContentId="MyFlowViewAnchorable">
+                <xcad:LayoutPanel>
+                    <xcad:LayoutAnchorablePaneGroup>
+                        <xcad:LayoutAnchorablePane>
+                            <xcad:LayoutAnchorable CanClose="False" Title="Flow View" x:Name="MyFlowViewAnchorable"
+                                        ContentId="MyFlowViewAnchorable">
 
-                                <Rectangle Fill="Green" Width="100" Height="100"/>
-                            </xcad:LayoutAnchorable>
+                        <Rectangle Fill="Green" Width="100" Height="100"/>
+                    </xcad:LayoutAnchorable>
 
-                                    <xcad:LayoutAnchorable CanClose="False" Title="Data Grid" x:Name="MyDataGridAnchorable"
-                                                ContentId="MyDataGridAnchorable">
+                            <xcad:LayoutAnchorable CanClose="False" Title="Data Grid" x:Name="MyDataGridAnchorable"
+                                        ContentId="MyDataGridAnchorable">
 
-                                <Rectangle Fill="Yellow" Width="100" Height="100"/>
-                            </xcad:LayoutAnchorable>
-                                </xcad:LayoutAnchorablePane>
-                            </xcad:LayoutAnchorablePaneGroup>
-                        </xcad:LayoutPanel>
-                    </xcad:LayoutRoot>
-                </xcad:DockingManager>
-            </Grid>
+                        <Rectangle Fill="Yellow" Width="100" Height="100"/>
+                    </xcad:LayoutAnchorable>
+                        </xcad:LayoutAnchorablePane>
+                    </xcad:LayoutAnchorablePaneGroup>
+                </xcad:LayoutPanel>
+            </xcad:LayoutRoot>
+        </xcad:DockingManager>
+    </Grid>
 </Window>
